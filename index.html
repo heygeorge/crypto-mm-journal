@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto MM Journal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Crypto MM Journal</h1>
+  <p class="lead">A personal Google Apps Script that keeps a trading journal for its owner's own bots.</p>
+  <p>Crypto MM Journal is a private, single-user tool. Trading bots running on the owner's computer
+     send their paper-trading results to a Google Sheet that the owner owns. The script stores those
+     results in the Sheet, builds a dashboard, and emails the owner a periodic summary report.</p>
+  <p>It is not a public service: it is used only by the person who created it, and nobody else can
+     sign up for or use it.</p>
+  <h2>What it accesses</h2>
+  <ul>
+    <li><strong>Google Sheets:</strong> only the owner's own trading-journal spreadsheet, to store results and build the dashboard.</li>
+    <li><strong>Gmail (send only):</strong> to send the summary report to the owner.</li>
+    <li><strong>Script triggers:</strong> to run the scheduled report and weekly tuning.</li>
+  </ul>
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
